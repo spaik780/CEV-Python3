@@ -9,7 +9,7 @@ valorDaCasa = float(input("Informe o valor do imóvel: R$"))
 salarioDoComprador = float(input("Qual o salário do comprador? R$"))
 anosParaPagar = int(input("Em quantos anos o comprador pretende pagar? "))
 prestacaoMensal = valorDaCasa / (anosParaPagar * 12)
-valorLimite = salarioDoComprador * 0.3 # (30/100)
+valorLimite = salarioDoComprador * 30 / 100
 
 print("Para pagar uma casa de R${:.2f} em {} anos,".format(valorDaCasa, anosParaPagar), end=" ")
 print("a prestação será de R${:.2f}.".format(prestacaoMensal))
