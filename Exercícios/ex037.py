@@ -11,6 +11,7 @@ numeroDecimal = int(input("Digite um número inteiro qualquer: "))
 print("[1] Binário")
 print("[2] Octal")
 print("[3] Hexadecimal")
+print("[4] Todas")
 baseDeConversao = str(input("Qual será a base de conversão? ")).lower()
 if baseDeConversao in ["1", "binário"]:
 	print("{:b}".format(numeroDecimal))
@@ -18,5 +19,9 @@ elif baseDeConversao in ["2", "octal"]:
 	print("{:o}".format(numeroDecimal))
 elif baseDeConversao in ["3", "hexadecimal"]:
 	print("{:x}".format(numeroDecimal))
+elif baseDeConversao in ["4", "todas"]:
+	print("Binário: {:b}".format(numeroDecimal))
+	print("Octal: {:o}".format(numeroDecimal))
+	print("Hexadecimal: {:x}".format(numeroDecimal))
 else:
 	print("Opção Inválida!")
