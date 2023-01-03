@@ -11,10 +11,14 @@ segundoSegmento = float(input("Segundo Segmento: "))
 terceiroSegmento = float(input("Terceiro Segmento: "))
 maiorSegmento = max(primeiroSegmento, segundoSegmento, terceiroSegmento)
 somaDosMenoresSegmentos = sum([primeiroSegmento, segundoSegmento, terceiroSegmento]) - maiorSegmento
+
 if somaDosMenoresSegmentos > maiorSegmento:
-	print("Os segmentos {},{},{} formam um triângulo".format(primeiroSegmento, segundoSegmento,terceiroSegmento), end=" ")
+	print("Os segmentos {}, {}, {} formam um triângulo".format(primeiroSegmento, segundoSegmento,terceiroSegmento), end=" ")
 	if somaDosMenoresSegmentos == 2 * maiorSegmento:
 		print("EQUILÁTERO")
-	#TODO: Fazer o resto dos 2 triângulos
+	elif primeiroSegmento != segundoSegmento != terceiroSegmento:
+		print("ESCALENO")
+	else:
+		print("ISÓSCELES")
 else:
-	print("Os segmentos {},{},{} não podem formar um triângulo.".format(primeiroSegmento, segundoSegmento,terceiroSegmento))
+	print("Os segmentos {}, {}, {} não podem formar um triângulo.".format(primeiroSegmento, segundoSegmento,terceiroSegmento))
