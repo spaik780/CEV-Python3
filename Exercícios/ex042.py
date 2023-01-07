@@ -16,7 +16,7 @@ if somaDosMenoresSegmentos > maiorSegmento:
 	print("Os segmentos {}, {}, {} formam um triângulo".format(primeiroSegmento, segundoSegmento,terceiroSegmento), end=" ")
 	if somaDosMenoresSegmentos == 2 * maiorSegmento:
 		print("EQUILÁTERO")
-	elif primeiroSegmento != segundoSegmento != terceiroSegmento:
+	elif primeiroSegmento != segundoSegmento != terceiroSegmento != primeiroSegmento:
 		print("ESCALENO")
 	else:
 		print("ISÓSCELES")

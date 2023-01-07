@@ -1,4 +1,4 @@
-# Bilbioteca para checar gramática em Python.
+# Biblioteca para checar gramática em Python.
 # https://pypi.org/project/language-tool-python/
 import language_tool_python
 
