@@ -7,4 +7,4 @@ elif nome in "Sofia Emilly Jennifer":
 	print("Belo nome feminino")
 else:
 	print("Seu nome é bem normal.")
-print("Tenha um bom dia, {0}!".format(nome))
+print("Tenha um bom dia, {}!".format(nome))
