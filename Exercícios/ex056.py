@@ -14,7 +14,7 @@ for c in range(1, 5):
 	print("----- {}ª PESSOA -----".format(c))
 	nome = str(input("Nome: ")).strip().title()
 	idade = int(input("Idade: "))
-	genero = str(input("Sexo [M/F]: "))[0].strip()
+	genero = str(input("Sexo [M/F]: ")).strip()[0]
 
 	mediaDeIdade += idade / 4
 	if genero in "Mm":
