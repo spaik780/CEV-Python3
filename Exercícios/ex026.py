@@ -1,5 +1,5 @@
 """
-Exercício 26: Primeira e útima ocorrência de uma string
+Exercício 26: Primeira e última ocorrência de uma string
 Faça um programa que leia uma frase pelo teclado e mostre:
 - Quantas vezes aparece a letra “A”.
 - Em que posição ela aparece a primeira vez.
