@@ -20,7 +20,7 @@ def getExerciseHeader(exerciseText):
 	return header
 
 print("Analisando gramática dos enunciados...")
-for exerciseIndex in range(96, 101):
+for exerciseIndex in range(101, 107):
 	fileName = "ex{:0>3}.py".format(exerciseIndex)
 	fileText = open(f"Exercícios/{fileName}", encoding="UTF-8").read()
 

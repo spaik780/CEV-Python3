@@ -36,9 +36,6 @@ Fundo
 47 -> Cinza
 """
 
-from os import system
-system("")
-
 numero1 = 6
 numero2 = 4
 soma = numero1 + numero2

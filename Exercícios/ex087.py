@@ -5,6 +5,7 @@ Aprimore o desafio anterior, mostrando no final:
 - A soma dos valores da terceira coluna.
 - O maior valor da segunda linha.
 """
+
 somaDosPares = somaDaTerceiraColuna = 0
 matriz = [0, 0, 0], [0, 0, 0], [0, 0, 0]
 for indiceDaLinha in range(3):
